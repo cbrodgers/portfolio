@@ -6,18 +6,23 @@
     <meta name="author" content="Charles Rodgers"/>
     <meta name="description" content="A review for basic HTML/CSS principles"/>
     <meta name="keywords" content="HTML/CSS, review"/>
-    <link href="assets/img/style/screen.css">
+    <link href="assets/style/screen.css" rel="stylesheet" type="text/css"/>
 </head>
 
-<header><img src="assets/img/webpage-header.jpg " alt="Space Header"></header>    
-<div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'UALR')">UALR</button>
-    <button class="tablinks" onclick="openCity(event, 'Course Homepage')">Course Homepage</button>
-    <button class="tablinks" onclick="openCity(event, 'W3C')">W3C</button>
-    <button class="tablinks" onclick="openCity(event, 'Little Rock')">Little Rock</button>
-  </div>
+<section id="container" class="cont">
+<header><img src="assets/images/webpage-header.jpg " alt="Space Header"></header>    
+<ul>
+    <li><a href="https://ualr.edu/">UALR</a></li>
+    <li><a href="news.asp">Course Homepage</a></li>
+    <li><a href="https://www.w3schools.com/default.asp">W3C</a></li>
+    <li><a href="https://www.littlerock.gov/">Little Rock</a></li>
 
+  </ul>
   <body>
+    <a name="top"></a>
+    <section id="img" class="img">
+        <img src="assets/images/webpage-image-1.jpg" alt="Globe">
+    </section>
   <h1>My Assessment</h1>
     <p>The most important goal of effective communication is clarity.
     Clarity is not the same as simplicity. Often, simple thing are clear 
@@ -25,14 +30,17 @@
     is about a complex relationship that can only be presented with a necessarily 
     large amount of data.
     </p>
-    <p>This complexity can be made to appear clear by effective opragnization
+
+    <section id="alert" class="alert"><p>This complexity can be made to appear clear by effective opragnization
         and presentation and need not be reduced to meaningless "bit-sized"
         chunks of data, as simplification does.
-    </p>
+    </p></section>
+
     <p>Clarity refers to the focus on one particular message or goal at a time,
         rather than attempting to accomplish too much at once. Simplicity is often 
         responsible for the "dumbing" of information rather than the illumination of it.
     </p>
+
     <h2>Questions</h2>
     <p>Please answer the following questions below. Remeber to markup the information
         properly using HTML.
@@ -43,9 +51,10 @@
     <p>Your answer here...</p>
     <h3>Provide an example of link pointing to your favorite site</h3>
     <p>Your answer here...</p>
-
+    
+    <footer id="colophon">&copy; 2022 Baker Rodgers <a href=#top>Back To Top</a></footer>
 </body>
+</section>
 
-<footer>Baker Rodgers</footer>
 
 </html>

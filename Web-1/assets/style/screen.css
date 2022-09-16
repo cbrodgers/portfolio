@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    background-image: url(webpage-background.jpg);
+    
+}
+
+.cont {
+    width: 800px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+  }
+
+li {
+    display: inline;
+    float:left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: grey;
+  }
+
+.alert{
+    color:grey;
+}
+
+.colophon{
+    color:grey;
+}
+
+h1, h2, h3 {
+    color:blue
+}
+
+.img{
+    float:right;
+    border-style:solid;
+    border-width: thin;
+}
