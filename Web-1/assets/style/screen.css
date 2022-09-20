@@ -1,11 +1,5 @@
-body {
-  background-image: url("webpage-background.jpg");
-  background-repeat: repeat-x, repeat-y;
-}
-.sides {
-  background-image: url("webpage-background.jpg");
-  background-repeat: repeat-x, repeat-y;
-  
+.background{
+  background:url(../images/webpage-background.jpg) repeat-x;
 }
 
 ul {
@@ -14,12 +8,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(58, 58, 58);
-  }
+}
 
 li {
     display: inline;
     float:left;
-  }
+}
 
 li a {
     display: block;
@@ -27,11 +21,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 li a:hover {
     background-color: grey;
-  }
+}
 
 .alert{
     color:grey;
@@ -49,6 +43,5 @@ h1, h3, h4 {
     float:right;
     border-style:solid;
     border-width: thin;
-    margin: 20px;
-    
+    height:auto;  
 }
