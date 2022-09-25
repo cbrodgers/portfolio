@@ -1,5 +1,23 @@
-.background{
-  background:url(../images/webpage-background.jpg) repeat-x;
+
+body {
+    font-family: calibri; 
+    width: 800px;
+    background: url('assets/images/webpage-background.jpg') repeat-x center fixed;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border: 1px solid white;
+    background-size: contain;
+}
+
+
+#head-img {
+    width: 100%;
+    height: 185px;
+    background-image: url('assets/images/webpage-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 ul {
@@ -27,6 +45,13 @@ li a:hover {
     background-color: grey;
 }
 
+#content {
+    background-color: white;
+    padding: 25px;
+    padding-top: 5px;
+    background-size: cover;
+}
+
 .alert{
     color:grey;
 }
@@ -39,7 +64,7 @@ h1, h3, h4 {
     color:blue
 }
 
-.img{
+.globe{
     float:right;
     border-style:solid;
     border-width: thin;
