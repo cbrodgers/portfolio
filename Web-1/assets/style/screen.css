@@ -2,7 +2,7 @@
 body {
     font-family: calibri; 
     width: 800px;
-    background: url('assets/images/webpage-background.jpg') repeat-x center fixed;
+    background: url('/Web-1/assets/images/webpage-background.jpg') repeat-x center fixed;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 45px;
