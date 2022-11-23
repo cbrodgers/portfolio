@@ -74,6 +74,23 @@ p {
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
+#footer {
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
+	height: 25px;
+	position:absolute;
+	width:100%;
+	bottom:0;
+}
+
+#footer h6 {
+    text-align:center;
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
     from {opacity: 0;}
