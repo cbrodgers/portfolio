@@ -3,6 +3,7 @@
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	/*background-color: #666;*/
+	
 	}
 
 #container {
@@ -11,6 +12,7 @@ body {
 	margin-left: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	
 }
 
 p {
@@ -98,3 +100,146 @@ p {
     to {opacity: 1;}
 }
 
+.smfloatleft {
+    float: left;
+    width: 280px;
+}
+
+.tinypics {
+    margin-bottom: 15px;
+    border: solid black 1px;
+    width: 280px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+}
+
+#titlecontainer {
+    color: black;
+    width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+    padding-left: 10px;
+}
+
+.designdoc {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px; 
+    width: 190px;
+    border: solid black 1px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+}
+
+.mobileexamplepics {
+    width: 269px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+    border: solid black 1px;
+}
+
+.schoollogo {
+    width: 250px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+    margin-right: 35px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.floatright {
+    float: right;
+    width: 283px;
+}
+
+#floatRtPro {
+    float: right;
+    width: 483px;
+    padding-right: 60px;
+}
+
+#headshot {
+    border: none;
+    margin-left: 40px;
+    width: 280px;
+    border-radius: 9px;
+}
+
+.bragtitle {
+    text-shadow:3px 3px 2px rgb(79, 85, 92);
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.sectionhead {
+    font-size: 1.1em;
+    text-shadow:3px 3px 2px rgb(79, 85, 92);
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: solid 1px #383838;
+    padding-bottom: 10px;
+}
+
+#contactType {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#profileText {
+    margin-top: 25px;
+    padding: 28px;
+    padding-bottom: 32px;
+    background-color: #757575;
+    border: solid 1px #383838;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+}
+
+.floatlefttext {
+    float: left;
+    padding-left: 50px;
+}
+
+.floatrighttext {
+    width: 307px;
+    float: right;
+    padding-right: 155px;
+}
+
+.accsection {
+    font-size: 1.1em;
+    text-shadow:3px 3px 2px rgb(79, 85, 92);
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.accframe {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #757575;
+    border: solid black 1px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+}
+
+#pdfbox {
+    padding: 12px;
+    background-color: #ebebeb;
+    border: solid black 2px;
+}
+
+.pdflist {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.examplepics {
+    border: solid black 1px;
+    width: 598px;
+    box-shadow: 4px 7px 5px rgb(79, 85, 92);
+    margin-right: 35px;
+    margin-bottom: 20px;
+    float: left;
+}
