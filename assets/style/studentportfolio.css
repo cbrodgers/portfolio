@@ -67,10 +67,12 @@ p {
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
+    font-size: 16px;
+    position: absolute;
+    width: 918px;
+    padding: 40px 40px;
     border: 1px solid #ccc;
-    border-top: none;
+   
 }
 
 .tabcontent {
@@ -172,9 +174,8 @@ p {
     font-size: 1.1em;
     text-align: center;
     font-weight: bold;
-    
-    
     padding-bottom: 10px;
+    border-bottom: solid 1px #383838;
 }
 
 #contactType {
@@ -218,7 +219,6 @@ p {
     padding-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    
     border: solid black 1px;
     box-shadow: 4px 7px 5px rgb(79, 85, 92);
 }
